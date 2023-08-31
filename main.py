@@ -3,9 +3,9 @@ import streamlit as st
 st.title("Find the Largest Number")
 
 # Input fields for three numbers
-number1 = st.number_input("Enter the first number:")
-number2 = st.number_input("Enter the second number:")
-number3 = st.number_input("Enter the third number:")
+number1 = st.number_input("Enter the 1st number:")
+number2 = st.number_input("Enter the 2nd number:")
+number3 = st.number_input("Enter the 3rd number:")
 
 # Function to find the largest number
 def find_largest_number(num1, num2, num3):
